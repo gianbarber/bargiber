@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Barbería Gian</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1>Barbería Gian</h1>
+    <p>Cortes modernos, estilo clásico</p>
+  </header>
+
+  <section class="info">
+    <h2>Horarios</h2>
+    <p>Lunes a Sábado: 10:00 - 20:00</p>
+    <p>Dirección: Calle Ficticia 123, Ciudad</p>
+  </section>
+
+  <section class="servicios">
+    <h2>Servicios</h2>
+    <ul>
+      <li>Corte de cabello</li>
+      <li>Afeitado</li>
+      <li>Arreglo de barba</li>
+      <li>Tratamientos capilares</li>
+    </ul>
+  </section>
+
+  <section class="reserva">
+    <h2>Reservá tu turno</h2>
+    <form id="formReserva">
+      <input type="text" name="nombre" placeholder="Tu nombre" required />
+      <input type="tel" name="telefono" placeholder="Teléfono" required />
+      <input type="datetime-local" name="fecha" required />
+      <button type="submit">Reservar</button>
+    </form>
+    <div id="confirmacion" style="display: none;">¡Reserva enviada con éxito!</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Barbería Gian</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
